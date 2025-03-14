@@ -11,12 +11,14 @@ Deployment: Interactive Streamlit App (app.py)
 
 Repository Structure
 Hyperspectral-Mycotoxin-Prediction
-├── final_task.ipynb      # Jupyter Notebook with full code (Preprocessing, PCA, ML models)
-├── app.py                # Streamlit application for model inference
-├── TASK-ML-INTERN.csv    # Hyperspectral dataset
-├── report.pdf            # Final report summarizing results and analysis
-├── requirements.txt      # List of required Python packages
-└── README.md             # This file
+Hyperspectral-Mycotoxin-Prediction
+├── final_task.ipynb    # Jupyter Notebook (Preprocessing, PCA, ML models)
+├── app.py              # Streamlit app for model inference
+├── TASK-ML-INTERN.csv  # Hyperspectral dataset
+├── report.pdf          # Final report summarizing results and analysis
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
+
  Dataset Details
 The dataset contains hyperspectral imaging data for corn samples. It includes 448 spectral reflectance features captured across different wavelength bands. The target variable is mycotoxin concentration (DON level), which we predict using machine learning models.
 
