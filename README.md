@@ -4,13 +4,13 @@ This project predicts mycotoxin (DON) concentration in corn samples using hypers
 Dataset: TASK-ML-INTERN.csv (Hyperspectral Imaging Data)
 Dimensionality Reduction: PCA (448 → 3 features)
 Models Used:
-Random Forest (Best Performance: R² = 0.9485)
+Random Forest
 XGBoost
-CNN (Overfitting initially, requires hyperparameter tuning)
+CNN
 Deployment: Interactive Streamlit App (app.py)
 
- Repository Structure
- 📦 Hyperspectral-Mycotoxin-Prediction
+Repository Structure
+Hyperspectral-Mycotoxin-Prediction
 ├── final_task.ipynb      # Jupyter Notebook with full code (Preprocessing, PCA, ML models)
 ├── app.py                # Streamlit application for model inference
 ├── TASK-ML-INTERN.csv    # Hyperspectral dataset
@@ -29,13 +29,16 @@ Windows:
 env\Scripts\activate
 Mac/Linux:
 source env/bin/activate
+
 2.Install Dependencies
 Install all required packages using:
   pip install -r requirements.txt
+ 
 3. Running the Jupyter Notebook
 To explore data preprocessing, PCA, and model training, run the Jupyter Notebook:
 jupyter notebook final_task.ipynb
-4. Running the Streamlit App
+
+5. Running the Streamlit App
 After training the models, launch the Streamlit web app to interactively predict mycotoxin levels:
 streamlit run app.py
 This will open a browser window where you can upload new spectral data and get predictions.
